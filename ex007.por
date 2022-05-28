@@ -26,7 +26,7 @@ programa
 		 x = ((c*ee)-(b*f)) / ((a*ee)-(b*d))
 		 y = ((a*f)-(c*d)) / ((a*ee)-(b*d))
 
-		 escreva("O valor de x é: " + x)
+		 escreva("O valor de x é: " + x +"\n")
 		 escreva("O valor de y é: " + y)
 	}
 }
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 660; 
+ * @POSICAO-CURSOR = 307; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

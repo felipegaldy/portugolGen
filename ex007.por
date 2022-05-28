@@ -8,7 +8,7 @@ programa
  			Escreva um sistema que lê os coeficientes a,b,c,d,e e f e calcula e mostra os valores de x e y.
 		 */
 
-		 real a, b, c, d, ee, f, x, y
+		 real a, b, c, d, ee, f, x, y, provax, provay
 
 		 escreva("informe o valor de A: ")
 		 leia(a)
@@ -28,6 +28,11 @@ programa
 
 		 escreva("O valor de x é: " + x +"\n")
 		 escreva("O valor de y é: " + y)
+
+		 provax = (a*x)+(b*y)
+		 provay = (d*x)+(ee*y)
+		 escreva("\n"+provax+" "+provay+" "+c+" "+f)
+		 
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 307; 
+ * @POSICAO-CURSOR = 744; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

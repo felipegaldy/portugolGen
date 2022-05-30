@@ -12,11 +12,8 @@ programa
 			excedente.
 		 */
 
-		 inteiro C, N, E, ST
-		 E=0
-		 N=0
-		 C=0
-
+		 real C, N, E, ST
+		 E=0.0
 		 escreva("Informe o código do trabalhador: ")
 		 leia(C)
 		 escreva("Informe o número de horas trabalhadas: ")
@@ -25,7 +22,7 @@ programa
 		 se (N > 50){
 		 	E = N%50
 		 	ST = (N*10)+(E*20)
-		 	escreva("O salário total é de: R$"+ST+".00\nO salário excedente é de: R$"+E+".00")
+		 	escreva("O salário total é de: R$"+ST+".00\nO salário excedente é de: R$"+E*20+".00")
 		 }senao {
 		 	ST = N*10
 		 	escreva("O salário total é de: R$"+ST+".00\nO salário excedente é de: R$"+E+".00")
@@ -37,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 924; 
+ * @POSICAO-CURSOR = 531; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

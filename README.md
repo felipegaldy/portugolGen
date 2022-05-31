@@ -1,5 +1,5 @@
 ## Atividades de Logica de programação Bloco I
-#### Professor: Jeff / Jacque
+#### Professores: Jacque e Jeff
 #### Turma: 54
 
 
@@ -7,6 +7,7 @@
 
 - [x] Introdução aos Algoritmos
 - [x] Laços condicionais
+- [x] Laços Repetição
 
 
 #### Tecnologias
